@@ -1,6 +1,8 @@
-@extends('layouts.app')
-
+@extends('layouts.public')
+@section('title', 'Home | Vivano Co LTD')
 @section('content')
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
