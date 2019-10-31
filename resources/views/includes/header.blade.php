@@ -20,9 +20,11 @@
                                  <li class="hassubs">
                                     <a href="#">Spicies</a>
                                     <ul>
+                                    @if($spicies??'')
                                         @foreach($spicies as $spicies)
                                             <li><a href="/shop/company/{{ $company->id }}">{{ $spicies->spicies }}</a></li>
                                         @endforeach
+                                    @endif
                                     </ul>
                                 </li>
                                 <li><a href="/shop">Products</a></li>
